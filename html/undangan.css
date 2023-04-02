@@ -1,0 +1,124 @@
+/* CSS untuk tampilan awal pop-up box */
+.pop-up-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pop-up-content {
+  background-color: #f6e0b5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pop-up-content h1 {
+  font-size: 48px;
+  color: #ff7f50;
+  margin-top: 0;
+}
+
+.pop-up-content button {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.pop-up-content button:hover {
+  background-color: #f0ad4e;
+}
+
+/* CSS untuk tampilan halaman utama undangan */
+body {
+  background-color: #f7e5c0;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+
+header {
+  background-color: #c7853d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-top: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.event-details {
+  margin-top: 50px;
+}
+
+.event-details h2 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+.event-details p {
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.event-details button {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.event-details button:hover {
+  background-color: #f0ad4e;
+}
+
+/* CSS untuk tampilan pop-up box konfirmasi kehadiran */
+.confirmation-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirmation-content {
+  background-color: #f6e0b5;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.confirmation-content h1 {
+  font-size: 48px;
+  color: #ff7f50;
+  margin-top: 0;
+}
+
+.confirmation-content
